@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PublicSchool.Domain.Interface\PublicSchool.Domain.Interface.csproj" />
+    <ProjectReference Include="..\PublicSchool.Domain\PublicSchool.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
