@@ -7,11 +7,15 @@ Este projeto foi criado em ASP.NET Core 3.1
 ## Arquitetura
 
 - Toda arquitetura com preocupações de separação de responsabilidades, princípios SOLID and Clean Code
+- Design Patters
 - Domain Driven Design (Layers and Domain Model Pattern)
 - Unit of Work
 - Repository
 - Dependency Injection
 - Database InMemory
+- OO (Abstrações, Interfaces, Herança, Polimorfismo)
+- Entity Framework Core
+- C#
 
 ## Como instalar
 
