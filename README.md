@@ -19,8 +19,9 @@ Este projeto foi criado em ASP.NET Core 3.1
 
 ## Como instalar
 
-- Baixe ou clone este repositório usando `https://github.com/pdrumond2020/publicschool_aspnetcore.git`;
+- Baixe ou clone este repositório usando `https://github.com/pdrumond2020/publicschool_aspnetcore.git`
 - Limpe a solução e depois execute um build. 
+- Segue o Postman Collection na pasta: `https://github.com/pdrumond2020/publicschool_aspnetcore/tree/master/PostmanCollection`
 
 ## Dúvidas
 Caso haja alguma dúvida em relação a este repositório, envie e-mail para pathydruma@gmail.com.
