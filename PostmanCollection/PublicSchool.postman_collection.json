@@ -1,0 +1,246 @@
+{
+  "info": {
+    "_postman_id": "6c753ea0-37ea-4713-a669-11bc15d4f43e",
+    "name": "PublicSchool",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "School Lista",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          }
+        ],
+        "url": {
+          "raw": "https://localhost:5001/v1/school",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "school"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "School Adicionar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json-patch+json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"vbcnvbnjvbm\"}"
+        },
+        "url": {
+          "raw": "https://localhost:5001/v1/school",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "school"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "School Excluir",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          }
+        ],
+        "url": {
+          "raw": "https://localhost:5001/v1/school/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "school",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "School Alterar",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json-patch+json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":4,\"name\":\"222222\"}"
+        },
+        "url": {
+          "raw": "https://localhost:5001/v1/school/4",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "school",
+            "4"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Grade Lista",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          }
+        ],
+        "url": {
+          "raw": "https://localhost:5001/v1/school",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "school"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Grade Adicionar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json-patch+json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"description\": \"grade 2\",\r\n  \"schoolId\": 2\r\n}"
+        },
+        "url": {
+          "raw": "https://localhost:5001/v1/grade",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "grade"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Grade Excluir",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          }
+        ],
+        "url": {
+          "raw": "https://localhost:5001/v1/grade/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "grade",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Grade Alterar",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "accept",
+            "value": "*/*"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json-patch+json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":3,\"description\":\"grade 3.2\",\"schoolId\":2}"
+        },
+        "url": {
+          "raw": "https://localhost:5001/v1/grade/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "5001",
+          "path": [
+            "v1",
+            "grade",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "protocolProfileBehavior": {}
+}
